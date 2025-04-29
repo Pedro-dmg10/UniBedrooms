@@ -56,14 +56,16 @@ Groups rooms by location:
 
 ##  Features Implemented
 
--  Insert students (`IE` command)
--  Accept room applications (`AC` command)
--  List rooms grouped by location and sorted lexicographically (`LQ` command)
--  Efficient lookups using **Open Address Hash Tables**
--  Lexicographic sorting with **Quicksort**
--  Maintenance of a **Top 3 Managers** leaderboard
--  Internal collections using **Sequences and Dictionaries**
--  Encapsulated logic outside of `main` using `uniBedrooms` as a control layer
+- Insert and query students
+- Insert and query managers
+- Insert, query, modify, and remove rooms
+- Submit and accept applications for rooms
+- List all rooms and available rooms by locality
+- Efficient lookups using **Open Address Hash Tables**
+- Lexicographic sorting with **Quicksort**
+- Maintenance of a **Top 3 Managers** leaderboard
+- Internal collections using **Sequences and Dictionaries**
+- Encapsulated logic outside of `main` using `uniBedrooms` as a control layer
 
 ---
 
